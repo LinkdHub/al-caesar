@@ -8,7 +8,7 @@
     --link-hover-color: #3B3B3B;
     --link-background: #FFFFFF;
     --link-hover-background: #F7F7F7;
-    --main-img-background: url("./image/Curve\ Line.svg");
+    --main-img-background: url("./image/Sprinkle.svg");
 }
 
 a {
@@ -32,7 +32,6 @@ body {
     object-fit: fill;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden !important;
 }
 .loader {
     display: flex;
