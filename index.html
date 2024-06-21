@@ -60,10 +60,12 @@
         </ul>
     </div>
     <script>
-        window.addEventListener('load', function() {
+    window.addEventListener('load', function() {
+        setTimeout(function() {
             document.querySelector('.loader').style.display = 'none';
-            document.body.style.overflow = 'auto'; 
-        });
+            document.body.style.overflow = 'auto';
+        }, 4000); 
+    });
     </script>
 </body>
 </html>
